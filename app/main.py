@@ -4,7 +4,6 @@ from app import crud, models, schemas
 from app.database import async_engine, get_db
 import uvicorn
 
-# Убедитесь, что создаете таблицы в синхронном режиме, как было описано ранее.
 # Создание таблиц необходимо выполнить отдельно через синхронный движок.
 
 app = FastAPI()
